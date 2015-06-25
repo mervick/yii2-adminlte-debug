@@ -1,9 +1,9 @@
 {
     "name": "mervick/yii2-adminlte-debug",
-    "description": "Yii2 AdminLTE Debug Module.",
+    "description": "Yii2 AdminLTE Debug Extension",
     "keywords": ["yii", "yii2", "extension", "debug", "adminlte"],
     "homepage": "https://github.com/mervick/yii2-adminlte-debug",
-    "type": "yii2-module",
+    "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
         {
