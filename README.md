@@ -11,3 +11,20 @@ If you want install this manually, open terminal and run:
 composer require "mervick/yii2-adminlte-debug" "*"
 ```
 
+## Usage
+
+In your config file (it's maybe `config/main.php` or `config/main-local.php`) add the following lines:
+
+```php
+
+if (!YII_ENV_TEST) {
+    // configuration adjustments for 'dev' environment
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = [
+        'class' => 'mervick\adminlte\debug\Module',
+        'controllerNamespace' => 'mervick\adminlte\debug\controllers',
+        'allowedIPs' => ['*'],   // for all ips with 'dev' role
+        'allowedRoles' => ['dev'],
+    ];
+}
+```
