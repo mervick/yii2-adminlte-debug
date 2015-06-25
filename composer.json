@@ -1,0 +1,23 @@
+{
+    "name": "mervick/yii2-adminlte-debug",
+    "description": "Yii2 AdminLTE Debug Module.",
+    "keywords": ["yii", "yii2", "extension", "debug", "adminlte"],
+    "homepage": "https://github.com/mervick/yii2-adminlte-debug",
+    "type": "yii2-module",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andrey Izman",
+            "email": "izmanw@gmail.com"
+        },
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mervick\\adminlte\\debug\\": ""
+        }
+    }
+}
