@@ -8,7 +8,13 @@ This package required by [mervick/yii2-adminlte](https://github.com/mervick/yii2
 If you want install this manually, open terminal and run:
 
 ```bash
-composer require "mervick/yii2-adminlte-debug" "*"
+php composer.phar require "mervick/yii2-adminlte-debug" "*"
+```
+or add to composer.json
+```json
+"require": {
+    "mervick/yii2-adminlte-debug": "*"
+}
 ```
 
 ## Usage
