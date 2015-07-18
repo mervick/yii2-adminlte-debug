@@ -1,4 +1,5 @@
 # Yii2 AdminLTE Debug Module
+[![Analytics](https://ga-beacon.appspot.com/UA-65295275-1/yii2-adminlte-debug)](https://github.com/igrigorik/ga-beacon)
 
 Modified [yiisoft/yii2-debug](https://github.com/yiisoft/yii2-debug)  for [mervick/yii2-adminlte](https://github.com/mervick/yii2-adminlte).
 
